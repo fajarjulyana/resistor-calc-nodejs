@@ -1,0 +1,38 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Nilai Resistor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Aplikasi Nilai Resistor</h1>
+
+  <div class="container">
+    <label for="numBands">Jumlah Pita:</label>
+    <select id="numBands">
+      <option value="2">2 Pita</option>
+      <option value="3">3 Pita</option>
+      <option value="4">4 Pita</option>
+    </select>
+
+    <div id="bandContainer">
+      <input type="color" id="band1" value="#ff0000">
+      <input type="color" id="band2" value="#ffff00">
+      <input type="color" id="band3" style="display: none;" value="#00ff00">
+      <input type="color" id="band4" style="display: none;" value="#000000">
+    </div>
+
+    <button id="calculate-btn">Hitung</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

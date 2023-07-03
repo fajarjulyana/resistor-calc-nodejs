@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select,
+input[type="color"],
+button {
+  margin-bottom: 10px;
+}
+
+#bandContainer {
+  display: flex;
+  justify-content: center;
+}
