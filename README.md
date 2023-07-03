@@ -25,7 +25,7 @@ Sebelum menjalankan aplikasi ini, pastikan komputer Anda telah memenuhi prasyara
    ```
 2. Masuk ke direktori
   ```bash
-  cd aplikasi-nilai-resistor
+  cd resistor-calc-nodejs
   ```
 3. Pasang Idependensi proyek
   ```bash
